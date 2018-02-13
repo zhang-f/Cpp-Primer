@@ -1,4 +1,5 @@
 
+
 //
 //  ex7_03.cpp
 //  Exercise 7.03
@@ -20,7 +21,8 @@ int main()
         {
             if (total.isbn() == trans.isbn())
                 total.combine(trans);
-            else {
+            else 
+            {
                 cout << total.bookNo << " " << total.units_sold << " " << total.revenue << endl;
                 total = trans;
             }
