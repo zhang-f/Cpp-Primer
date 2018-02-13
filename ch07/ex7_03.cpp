@@ -1,3 +1,4 @@
+
 //
 //  ex7_03.cpp
 //  Exercise 7.03
@@ -15,7 +16,8 @@ int main()
     if (cin >> total.bookNo >> total.units_sold >> total.revenue)
     {
         Sales_data trans;
-        while (cin >> trans.bookNo >> trans.units_sold >> trans.revenue) {
+        while (cin >> trans.bookNo >> trans.units_sold >> trans.revenue) 
+        {
             if (total.isbn() == trans.isbn())
                 total.combine(trans);
             else {
